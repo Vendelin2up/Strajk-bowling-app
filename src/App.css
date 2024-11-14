@@ -1,0 +1,86 @@
+/* App.css */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 320px; /* Standard bredd för mobil */
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #FFF4F1;
+  font-family: Arial, sans-serif;
+  color: #333;
+  box-sizing: border-box;
+}
+
+
+h2 {
+  color: #e5004f; /* Motsvarande röd/rosa rubrikfärg */
+  text-align: center;
+  font-size: 1.5em;
+  margin: 1em 0;
+}
+
+button {
+  background-color: #e5004f;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  text-transform: uppercase;
+  width: 100%;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #d40047;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="time"] {
+  width: 100%; /* Gör så att input tar upp hela containerns bredd */
+  max-width: 100%; /* Förhindrar att input överstiger 100% av sin container */
+  box-sizing: border-box; /* Inkluderar padding och border i elementets totala bredd */
+  padding: 8px; /* Lägg till lite padding för en bättre användarupplevelse */
+  margin: 10px 0; /* Lägg till lite mellanrum mellan fälten */
+  border: 1px solid #ddd; /* Sätt en standard border */
+  border-radius: 4px; /* Rundade hörn */
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9em;
+  text-align: center;
+  margin-top: 10px;
+}
+/* App.css */
+/* App.css */
+
+.nav-button {
+  position: fixed;
+  top: 10px; /* Placera ikonen 10px från toppen */
+  left: 10px; /* Placera ikonen 10px från vänstra kanten */
+  font-size: 1.5em;
+  background-color: #e5004f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px; /* Justera padding så att knappen är mindre */
+  width: auto; /* Sätter bredden till auto så att den inte fyller hela raden */
+  height: auto; /* Lägger till auto för höjden för att hålla den kompakt */
+  border-radius: 5px;
+  z-index: 1001; /* Se till att den ligger över andra element */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-button:hover {
+  background-color: #d40047;
+}

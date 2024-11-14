@@ -1,0 +1,62 @@
+/* Booking.css */
+
+.booking-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff3f3;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .logo {
+    width: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 2em;
+    color: #e5004f;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-section {
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid #e5004f;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .submit-button {
+    width: 100%;
+    max-width: 300px;
+    padding: 15px;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #e5004f;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .submit-button:hover {
+    background-color: #d40047;
+  }
+  

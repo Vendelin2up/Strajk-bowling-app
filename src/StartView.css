@@ -1,0 +1,57 @@
+/* StartView.css */
+
+.start-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fff3f3; /* Ljus bakgrundsfärg */
+    cursor: pointer;
+    padding: 0 20px; /* Lägg till padding för att undvika att element går ut till kanterna */
+    box-sizing: border-box; /* Se till att padding räknas in i bredden */
+  }
+  
+  .logo {
+    width: 120px; /* Anpassa storleken så att den ser bra ut på mindre skärmar */
+height: auto;    
+animation: wave 2s ease-in-out infinite;
+  }
+  
+  .title {
+    font-size: 3em;
+    color: #e5004f;
+    margin: 20px 0 0;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .subtitle {
+    font-size: 1.8em;
+    color: #333;
+    margin: 0;
+    text-align: center;
+  }
+  
+  @keyframes wave {
+    0% {
+      transform: rotate(0deg) scale(1);
+    }
+    20% {
+      transform: rotate(3deg) scale(1.02);
+    }
+    40% {
+      transform: rotate(-3deg) scale(0.98);
+    }
+    60% {
+      transform: rotate(2deg) scale(1.01);
+    }
+    80% {
+      transform: rotate(-2deg) scale(0.99);
+    }
+    100% {
+      transform: rotate(0deg) scale(1);
+    }
+  }
+  
+  

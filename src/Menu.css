@@ -1,0 +1,47 @@
+/* Menu.css */
+
+.menu {
+    background-color: #222;
+    color: #e5004f;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .menu li {
+    margin: 15px 0;
+  }
+  
+  .menu a {
+    color: #e5004f;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  /* Menu.css */
+
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Se till att overlayn ligger över allt annat */
+  }
+  
+  .menu-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 300px;
+  }
+  
